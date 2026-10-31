@@ -58,8 +58,3 @@ discs.forEach(d=>{
 const T=new Date("2026-12-27T17:00:00+05:30").getTime(),p2=n=>String(n).padStart(2,"0");
 function tick(){let s=Math.max(0,Math.floor((T-Date.now())/1000));cd.textContent=p2(Math.floor(s/86400));ch.textContent=p2(Math.floor(s%86400/3600));cm.textContent=p2(Math.floor(s%3600/60));cs.textContent=p2(s%60)}
 tick();setInterval(tick,1000);
-
-/* RSVP (stored only in this browser) */
-const msg=document.getElementById("msg"),M={yes:"Thank you! We look forward to seeing you.",no:"You will be missed. Thank you for letting us know."};
-try{const v=localStorage.getItem("rsvp");if(v&&M[v])msg.textContent=M[v]}catch(e){}
-document.querySelectorAll(".btn").forEach(b=>b.onclick=()=>{msg.textContent=M[b.dataset.r];try{localStorage.setItem("rsvp",b.dataset.r)}catch(e){}});
