@@ -33,7 +33,7 @@ h2{font-family:Italiana,serif;font-weight:400;font-size:1.9rem;color:var(--navy)
 .names{font-family:Italiana,serif;font-size:10.4cqw;letter-spacing:.03em;color:var(--navy);text-transform:uppercase;line-height:1}
 .cover-event{display:flex;flex-direction:column;align-items:center;gap:1.1cqw}
 .ce-title{font-family:'Cinzel',Montserrat,serif;font-size:5.4cqw;font-weight:700;letter-spacing:.24em;text-indent:.24em;text-transform:uppercase;color:var(--navy);line-height:1.15}
-.ce-date{font-family:Montserrat,sans-serif;font-size:2.8cqw;font-weight:600;letter-spacing:.22em;text-indent:.22em;text-transform:uppercase;color:var(--royal);line-height:1.2}
+.ce-date{font-family:Montserrat,sans-serif;font-size:2.4cqw;font-weight:400;letter-spacing:.27em;text-indent:.27em;text-transform:uppercase;color:var(--navy);line-height:1.55}
 .heart{display:flex;align-items:center;gap:1.2cqw;justify-content:center;color:var(--navy)}
 .heart i{width:2.4cqw;height:2px;background:var(--navy)}
 .heart svg{width:6cqw;height:auto}
