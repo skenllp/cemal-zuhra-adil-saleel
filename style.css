@@ -218,7 +218,7 @@ h2 {
 }
 
 .names {
-    font-family: 'Monsieur La Doulaise', Italiana, serif;
+    font-family: 'Great Vibes', Italiana, serif;
     font-size: 17cqw;
     font-weight: 400;
     letter-spacing: 0;
@@ -237,6 +237,42 @@ h2 {
     width: 46cqw;
     max-width: 210px;
     height: auto
+}
+
+.cover-verse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .3cqw;
+    text-align: center
+}
+
+.cv-ar {
+    font-family: Amiri, serif;
+    font-size: 3.8cqw;
+    color: var(--navy);
+    letter-spacing: .06em;
+    line-height: 1.3
+}
+
+.cv-en {
+    font-family: Italiana, serif;
+    font-style: italic;
+    font-size: 2.1cqw;
+    letter-spacing: .18em;
+    text-indent: .18em;
+    color: #9C7F3E;
+    line-height: 1.3
+}
+
+.cover-invite {
+    font-size: 2.1cqw;
+    letter-spacing: .32em;
+    text-indent: .32em;
+    text-transform: uppercase;
+    color: var(--navy);
+    font-weight: 500;
+    opacity: .85
 }
 
 .cover-event {
@@ -261,11 +297,21 @@ h2 {
     font-family: Montserrat, sans-serif;
     font-size: 2.6cqw;
     font-weight: 600;
-    letter-spacing: .27em;
-    text-indent: .27em;
+    letter-spacing: .12em;
+    text-indent: .12em;
     text-transform: uppercase;
     color: var(--navy);
     line-height: 1.55
+}
+
+.cover-venue {
+    font-size: 2.1cqw;
+    letter-spacing: .32em;
+    text-indent: .32em;
+    text-transform: uppercase;
+    color: var(--royal);
+    font-weight: 600;
+    opacity: .9
 }
 
 .heart {
@@ -360,6 +406,14 @@ h2 {
     transition-delay: 1.8s
 }
 
+.show .cover>:nth-child(8) {
+    transition-delay: 2.0s
+}
+
+.show .cover>:nth-child(9) {
+    transition-delay: 2.2s
+}
+
 /* FAMILY PAGE */
 @font-face {
     font-family: 'Gimna';
@@ -426,25 +480,27 @@ h2 {
 
 .fam .cap {
     color: var(--royal);
-    font-size: .56rem;
+    font-size: .68rem;
     margin: 2px 0;
-    line-height: 1.75
+    line-height: 1.75;
+    letter-spacing: .04em;
+    text-transform: none;
 }
 
 .fam .cap.with {
-    margin: 10px 0 2px
+    margin: 10px 0 2px;
 }
 
 .fam .hl {
     font-weight: 700;
     color: #9C7F3E;
-    letter-spacing: .22em;
-    font-size: .62rem;
-    display: inline-block
+    letter-spacing: .05em;
+    font-size: .74rem;
+    display: inline-block;
 }
 
 .fam .nm {
-    font-family: 'Monsieur La Doulaise', Italiana, serif;
+    font-family: 'Great Vibes', Italiana, serif;
     font-weight: 400;
     font-size: 2.3rem;
     letter-spacing: 0;
@@ -460,13 +516,13 @@ h2 {
 }
 
 .gp {
-    margin-top: 5px;
-    font-size: .5rem;
-    line-height: 1.55;
-    letter-spacing: .08em;
-    text-transform: uppercase;
+    margin-top: 4px;
+    font-size: .66rem;
+    line-height: 1.65;
+    letter-spacing: .04em;
+    text-transform: none;
     color: var(--royal);
-    opacity: .92
+    opacity: .95
 }
 
 .gp b {
@@ -500,7 +556,7 @@ h2 {
 }
 
 .reg-n {
-    font-family: 'Monsieur La Doulaise', Italiana, serif;
+    font-family: 'Great Vibes', Italiana, serif;
     font-size: 1.7rem;
     font-weight: 400;
     letter-spacing: 0;
@@ -678,25 +734,29 @@ h2 {
 }
 
 .std .mo {
-    font-size: .55rem;
+    font-size: .62rem;
+    font-weight: 600;
     letter-spacing: .3em;
-    margin: 6px 0
+    margin: 6px 0;
+    color: var(--navy);
 }
 
 .dt {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    font-family: Italiana, serif;
-    font-size: 1.15rem;
+    gap: 10px;
+    font-family: 'Cinzel', Montserrat, serif;
+    font-weight: 700;
+    font-size: 1.38rem;
     letter-spacing: .12em;
-    margin: 6px 0
+    color: var(--navy);
+    margin: 8px 0;
 }
 
 .dt svg {
-    width: 26px;
-    height: 24px
+    width: 28px;
+    height: 26px;
 }
 
 /* COUNTDOWN */
