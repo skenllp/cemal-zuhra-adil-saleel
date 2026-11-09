@@ -218,8 +218,8 @@ h2 {
 }
 
 .names {
-    font-family: 'Parisienne', Italiana, serif;
-    font-size: 17cqw;
+    font-family: 'Amoresa', 'Parisienne', Italiana, serif;
+    font-size: 12.5cqw;
     font-weight: 400;
     letter-spacing: 0;
     color: var(--navy);
@@ -414,6 +414,13 @@ h2 {
     transition-delay: 2.2s
 }
 
+/* AMORESA */
+@font-face {
+    font-family: 'Amoresa';
+    src: url('assets/Amoresa%20Regular.otf') format('opentype');
+    font-display: swap
+}
+
 /* FAMILY PAGE */
 @font-face {
     font-family: 'Gimna';
@@ -500,9 +507,9 @@ h2 {
 }
 
 .fam .nm {
-    font-family: 'Parisienne', Italiana, serif;
+    font-family: 'Amoresa', 'Parisienne', Italiana, serif;
     font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     letter-spacing: 0;
     color: var(--navy);
     margin-top: 10px;
@@ -517,7 +524,7 @@ h2 {
 
 .gp {
     margin-top: 4px;
-    font-size: .66rem;
+    font-size: .6rem;
     line-height: 1.65;
     letter-spacing: .04em;
     text-transform: none;
