@@ -295,23 +295,24 @@ h2 {
 
 .ce-date {
     font-family: Montserrat, sans-serif;
-    font-size: 2.6cqw;
+    font-size: 4cqw;
     font-weight: 600;
     letter-spacing: .12em;
     text-indent: .12em;
     text-transform: uppercase;
     color: var(--navy);
-    line-height: 1.55
+    line-height: 1.4
 }
 
 .cover-venue {
-    font-size: 2.1cqw;
-    letter-spacing: .32em;
-    text-indent: .32em;
+    font-size: 3.4cqw;
+    letter-spacing: .28em;
+    text-indent: .28em;
     text-transform: uppercase;
     color: var(--royal);
     font-weight: 600;
-    opacity: .9
+    opacity: .9;
+    line-height: 1.7;
 }
 
 .heart {
