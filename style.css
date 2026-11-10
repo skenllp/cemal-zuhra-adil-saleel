@@ -489,14 +489,14 @@ h2 {
 .fam .cap {
     color: var(--royal);
     font-size: .68rem;
-    margin: 2px 0;
+    margin: 10px 0;
     line-height: 1.75;
     letter-spacing: .04em;
     text-transform: none;
 }
 
 .fam .cap.with {
-    margin: 10px 0 2px;
+    margin: 22px 0 4px;
 }
 
 .fam .hl {
@@ -513,8 +513,8 @@ h2 {
     font-size: 1.7rem;
     letter-spacing: 0;
     color: var(--navy);
-    margin-top: 10px;
-    margin-bottom: 2px;
+    margin-top: 18px;
+    margin-bottom: 12px;
     display: block;
     line-height: 1.1
 }
@@ -550,7 +550,7 @@ h2 {
 }
 
 .reg {
-    margin-top: 12px;
+    margin-top: 26px;
     text-align: center
 }
 
