@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@font-face {
+  font-family: 'Angelina';
+  src: url('assets/angelina.regular.ttf') format('truetype');
+}
+body { background: #0B1530; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+svg { width: 240px; height: 240px; }
+</style>
+</head>
+<body>
+<svg viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="wx" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#2C4585"/>
+      <stop offset=".55" stop-color="#172B55"/>
+      <stop offset="1" stop-color="#0B1530"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="50" fill="url(#wx)"/>
+  <circle cx="60" cy="60" r="38" fill="none" stroke="#C6A45C" stroke-width="1.3"/>
+  <circle cx="60" cy="60" r="35" fill="none" stroke="#C6A45C" stroke-opacity=".5" stroke-width=".6"/>
+  <text id="t1" x="60" y="68" text-anchor="middle" font-family="'Angelina', cursive, serif" font-size="22" fill="#DCC58F"><tspan>C</tspan><tspan dx="2">&amp;</tspan><tspan dx="2">A</tspan></text>
+</svg>
+<script>
+window.onload = () => {
+  const t = document.getElementById('t1');
+  const bb = t.getBBox();
+  console.log('SVG BBox:', JSON.stringify(bb));
+};
+</script>
+</body>
+</html>
+

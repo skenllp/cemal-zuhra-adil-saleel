@@ -415,6 +415,13 @@ h2 {
     transition-delay: 2.2s
 }
 
+/* ANGELINA */
+@font-face {
+    font-family: 'Angelina';
+    src: url('assets/angelina.regular.ttf') format('truetype');
+    font-display: swap
+}
+
 /* AMORESA */
 @font-face {
     font-family: 'Amoresa';
@@ -501,7 +508,7 @@ h2 {
 
 .fam .hl {
     font-weight: 700;
-    color: #9C7F3E;
+    color: inherit;
     letter-spacing: .05em;
     font-size: .74rem;
     display: inline-block;
